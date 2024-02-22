@@ -1,0 +1,20 @@
+.form{
+
+    width: 100%;
+    gap:1rem;
+}
+
+.inputs{
+    width: 100%;
+
+}
+.inputs input{
+    width:100%;
+    margin: 0.5rem 0;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
