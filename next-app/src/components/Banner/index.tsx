@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './banner.module.css'
 import Image from 'next/image'
+import task from '@/public/task1.png'
 
 interface Props {
 
@@ -12,7 +13,7 @@ const Banner = (props: Props) => {
             <main className={styles.main}>
                 <div className={styles.banner}>
                     <div className={styles.image}>
-                        <Image src="/task1.png" alt="" height={100} width={100} />
+                        <Image src={task} alt="" height={100} width={100} />
                     </div>
                     <div className={styles.premium}>
                         <h2>Premium Account</h2>
