@@ -3,7 +3,7 @@ import Style from './page.module.css'
 import Form from "@/components/Form";
 import Buddy from "@/components/Buddy";
 
-interface Props {}
+interface Props { }
 import Banner from "@/components/Banner"
 import SidePanel from "@/components/SidePanel";
 interface Props { }
@@ -13,21 +13,26 @@ interface Props { }
 const Contectus = (props: Props) => {
   return (
     <>
-
-      <SidePanel />
-      <Banner />
-      <div className={Style.contactus}>
-
-
-        <div className={Style.heading}>
-          <h1>Personal Information</h1>
+      <div className={Style.main}>
+        <div >
+          <SidePanel />
         </div>
-        <div className={Style.formsection}>
-            <Form/>
-            <Buddy/>
+        <div>
+          <Banner />
+          <div className={Style.contactus}>
+
+
+            <div className={Style.heading}>
+              <h1>Personal Information</h1>
+            </div>
+            <div className={Style.formsection}>
+              <Form />
+              <Buddy />
+            </div>
+          </div>
+          <Footer />
         </div>
       </div>
-      <Footer/>
     </>
 
   );

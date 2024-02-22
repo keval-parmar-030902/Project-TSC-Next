@@ -18,10 +18,10 @@ const SidePanel = (props: Props) => {
             <p className={styles.starAndText}><FaStar /> Management</p>
             <p className={styles.starAndText}><FaStar /> Data Analysis</p>
             <p className={styles.starAndText}><FaStar /> Computer Technician</p>
-            <p className={styles.starAndText}><FaClock />PastSearch 1</p>
-            <p className={styles.starAndText}><FaClock />PastSearch 2</p>
-            <p className={styles.starAndText}><FaClock />Computer and Information</p>
-            <p className={styles.starAndText}><FaClock />Database Administration</p>
+            <p className={styles.starAndText}><FaClock /> PastSearch 1</p>
+            <p className={styles.starAndText}><FaClock /> PastSearch 2</p>
+            <p className={styles.starAndText}><FaClock /> Computer and Information</p>
+            <p className={styles.starAndText}><FaClock /> Database Administration</p>
             <p className={styles.starAndText}><FaClock /> Computer Security</p>
             <p className={styles.starAndText}><FaClock /> Computer System Analyst</p>
             <b>My Boards</b>

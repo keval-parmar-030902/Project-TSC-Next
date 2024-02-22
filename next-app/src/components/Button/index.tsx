@@ -2,13 +2,13 @@ import React from 'react'
 import style from './button.module.css'
 
 interface Props {
-    
+
 }
 
 const Button = (props: Props) => {
     return (
         <>
-            <button className={style.button} onClick='save()'> Save</button>
+            <button className={style.button} > Save</button>
         </>
     )
 }
@@ -28,5 +28,5 @@ export default Button
 //     if (!firstname || !Lastname || !city || !postal || !address || !email || !phone || !password) {
 //         alert('Please fill in all fields');
 //       }
-//     save();  
+//     save();
 // }
