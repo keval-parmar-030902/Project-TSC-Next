@@ -1,7 +1,7 @@
 import React from "react";
 import Style from './page.module.css'
 import Form from "@/components/Form";
-
+import  Footer from "@/components/footer"
 interface Props {}
 
 const Contectus = (props: Props) => {
@@ -14,6 +14,7 @@ const Contectus = (props: Props) => {
         <div className="formSection">
             <Form/>
         </div>
+        <Footer/>
       </div>
     </>
       
