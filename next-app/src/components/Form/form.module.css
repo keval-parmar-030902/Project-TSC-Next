@@ -1,20 +1,54 @@
 .form{
+    width: 70%;
+}
 
+
+.formsection{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     gap:1rem;
 }
-
 .inputs{
     width: 100%;
 
 }
 .inputs input{
     width:100%;
-    margin: 0.5rem 0;
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
     border: none;
 }
+
+.textarea{
+    width:100%;
+    margin:1.1rem 0;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width:426px) {
+    .formsection{
+        display: block;
+        width: 100%;
+        gap:1rem;
+        
+    }
+    .inputs input{
+        margin:0.5rem 0;
+    }
+    .textarea{
+        margin:0.5rem 0;
+    }
+}
+@media (max-width:1003px){
+    .form{
+        width:100%
+    }
+}
+
 
 
 

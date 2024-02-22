@@ -1,0 +1,9 @@
+.imagesection{
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.image{
+    border-radius: 50%;
+    margin: auto;
+}
