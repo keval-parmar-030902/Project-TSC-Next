@@ -27,6 +27,7 @@ const Contectus = (props: Props) => {
             <Buddy/>
         </div>
       </div>
+      <Footer/>
     </>
 
   );
