@@ -2,15 +2,18 @@
     display: flex;
     flex-direction: column;
     margin: 20px;
+    width: 20rem;
   } 
 .starAndText {
     display: grid;
+    align-items: center;
     grid-template-columns: 0fr 1fr;
     gap: 5px;
     
   }
   .searchAndText {
     display: grid;
+    align-items: center;
     grid-template-columns: 0fr 1fr;
     gap: 5px;
     font-weight: bold;
