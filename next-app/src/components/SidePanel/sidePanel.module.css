@@ -1,0 +1,19 @@
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  } 
+.starAndText {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    gap: 5px;
+    
+  }
+  .searchAndText {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    gap: 5px;
+    font-weight: bold;
+  }
+  
+  

@@ -1,0 +1,31 @@
+.main{
+    margin: 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid rgb(10, 98, 64);
+    background-color: rgb(10, 98, 64) ;
+    color: white;
+    border-radius: 10px;
+    
+ }
+  .image {  
+     padding: 30px;
+ }
+ .premium{
+    margin: auto;
+ }
+ .heading{
+    font-size:x-large ;
+ }
+ @media (max-width: 426px) {
+    .banner {
+        flex-wrap: wrap; 
+        padding: 10px;
+    }
+    .image {  
+        margin: auto;
+        
+    }
+}
