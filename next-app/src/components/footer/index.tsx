@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from "./footer.module.css";
 import Link from "next/link";
-interface Props {}
+interface Props { }
 
 const Footer = (props: Props) => {
   return (
@@ -15,15 +15,21 @@ const Footer = (props: Props) => {
         <p className={Styles.p}>Yes,Delete my account </p>
       </div>
       <div className={Styles.div1}>
-        <p>
-          <span style={{ color: "blue" }}>
-            Get in touch with our support team{" "}
-          </span>
-          <span style={{ color: "black" }}>
-            if you have any question or want to leave some feedback.
-          </span>
-        </p>
+        <Link className={Styles.link} href="/shopPage" alt=" ">
+          Get in touch with our support team{" "}
+        </Link>
+
+        if you have any question or want to leave some feedback.
+
+
         <p>We'll be happy to hear from you.</p>
+      </div>
+      <hr></hr>
+      <div className={Styles.div2}>
+        <div className={Styles.div3}>Terms & Conditions</div>
+        <div className={Styles.div3}>Privacy Policy</div>
+        <div className={Styles.div3}>FAQ</div>
+        <div className={Styles.div3}>ContactUs</div>
       </div>
     </div>
   );

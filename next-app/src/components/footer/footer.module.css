@@ -6,7 +6,9 @@
     font-size: medium;
     margin-bottom: 0.5rem;
 }
-
+.link{
+    color: blue;
+}
     .div {
         border: 2px solid gray; 
         padding: 10px; 
@@ -20,3 +22,13 @@
     border-radius: 1rem;
     margin: 20px;
    } 
+   .div2{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   }
+   .div3{
+   
+    color: gray;
+   }

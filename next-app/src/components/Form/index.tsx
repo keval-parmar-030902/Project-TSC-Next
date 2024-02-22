@@ -1,9 +1,11 @@
 import React from "react";
 import Style from "./form.module.css";
 import Button from "../Button";
+import Link from "next/link";
+import { BiCheckbox } from "react-icons/bi";
 
 
-interface Props {}
+interface Props { }
 
 
 
@@ -55,10 +57,21 @@ const Form = (props: Props) => {
               placeholder="Password"
             />
           </div>
-        </div>
 
+        </div>
+        <div className={Style.text}>
+          Use this email to log in to your
+          <Link className={Style.link} href="/" alt=""> resumedone.io </Link>
+          account and receive notifications.
+        </div>
         <div>
           <Button />
+        </div>
+        <div>
+          <input type="checkbox" />
+          <span>   Show my profile to serious employers on</span>
+          <Link className={Style.link} href="/" alt=""> hirethebest.io </Link>
+          for free
         </div>
       </form>
     </>
