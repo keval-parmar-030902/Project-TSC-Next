@@ -8,7 +8,7 @@ interface Props {
 const Button = (props: Props) => {
     return (
         <>
-            <button className={style.button} onClick='save()'> Save</button>
+            <button className={style.button} > Save</button>
         </>
     )
 }

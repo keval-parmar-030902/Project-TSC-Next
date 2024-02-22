@@ -14,7 +14,7 @@ const Contectus = (props: Props) => {
   return (
     <>
 
-      <SidePanel />
+      {/* <SidePanel /> */}
       <Banner />
       <div className={Style.contactus}>
 

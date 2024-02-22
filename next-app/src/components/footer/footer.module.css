@@ -11,10 +11,12 @@
         border: 2px solid gray; 
         padding: 10px; 
         border-radius: 1rem;
+        margin:20px;
+        
     }
    .div1{
     margin-top: 1.5rem;
-    border: 2px solid gray; 
     padding: 10px; 
     border-radius: 1rem;
+    margin: 20px;
    } 

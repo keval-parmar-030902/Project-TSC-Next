@@ -19,6 +19,7 @@
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
     border: none;
+    border:1px solid green;
 }
 
 .textarea{
@@ -27,6 +28,7 @@
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
     border: none;
+    border:1px solid green;
 }
 
 @media (max-width:426px) {
