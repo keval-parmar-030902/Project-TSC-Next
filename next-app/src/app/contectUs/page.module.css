@@ -3,6 +3,11 @@
     flex-direction: row;
     
 }
+@media (max-width: 426px) {
+   .side{
+    display: none;
+   }
+}
 .contactus{
    display: flex;
    flex-direction: column;

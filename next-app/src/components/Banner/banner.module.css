@@ -19,7 +19,7 @@
  .heading{
     font-size:x-large ;
  }
- @media (max-width: 426px) {
+ @media (max-width: 983px) {
     .banner {
         flex-wrap: wrap; 
         padding: 10px;

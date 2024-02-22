@@ -14,7 +14,7 @@ const Contectus = (props: Props) => {
   return (
     <>
       <div className={Style.main}>
-        <div >
+        <div className={Style.side}>
           <SidePanel />
         </div>
         <div>
