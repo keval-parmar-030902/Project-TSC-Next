@@ -1,0 +1,20 @@
+.p{
+    color: red;
+    margin-top: 0.5rem;
+}
+.h1{
+    font-size: medium;
+    margin-bottom: 0.5rem;
+}
+
+    .div {
+        border: 2px solid gray; 
+        padding: 10px; 
+        border-radius: 1rem;
+    }
+   .div1{
+    margin-top: 1.5rem;
+    border: 2px solid gray; 
+    padding: 10px; 
+    border-radius: 1rem;
+   } 
