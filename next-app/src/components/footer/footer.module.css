@@ -38,6 +38,8 @@
    } 
    .div2{
     margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     gap: 1rem;

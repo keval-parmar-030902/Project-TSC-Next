@@ -15,6 +15,26 @@
     width: 100%;
     gap:1rem;
 }
+.icon{
+    /* Absolute positioning */
+
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+/* Text color */
+color: var(--ui-fg-subtle);
+/* Padding */
+padding-left: 1rem;
+padding-right: 1rem;
+/* Focus styles */
+outline: none;
+/* Transition */
+transition-property: all;
+transition-duration: 150ms;
+/* Focus text color */
+focus-color: var(--gray-700);
+
+}
 .inputs{
     width: 100%;
 
