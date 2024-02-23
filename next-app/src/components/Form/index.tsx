@@ -134,13 +134,7 @@ const Form = forwardRef<HTMLInputElement, Props>(
               )}
             </div>
 
-            <div className={Style.text}>
-              Use this email to log in to your{" "}
-              <Link className={Style.link} href="/" alt="">
-                resumedone.io
-              </Link>{" "}
-              account and receive notifications.
-            </div>
+
           </div>
           <div className={Style.text}>
             Use this email to log in to your{" "}
