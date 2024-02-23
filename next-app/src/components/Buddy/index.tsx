@@ -10,7 +10,7 @@ interface Props {
 const Buddy = (props: Props) => {
     return (
         <div className={styles.imagesection}>
-            <Image src={person} className={styles.image} alt={'person image'} width={250} height={250}/>
+            <Image src={person} className={styles.image} alt={'person image'} width={200} height={200}/>
         </div>
     )
 }

@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
           If you delete your account you'll be permanently removing it from our
           systems-you can't undo it.{" "}
         </p>
-        <p className={Styles.p}>Yes, Delete my account </p>
+        <button className={Styles.button}>Yes, Delete my account</button>
       </div>
       <div className={Styles.div1}>
         <Link className={Styles.link} href="/shopPage" alt=" ">

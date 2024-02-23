@@ -17,6 +17,19 @@
         margin:20px;
         
     }
+    .button{border: none;
+   
+    color: red;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color:white;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
    .div1{
     margin-top: 1.5rem;
     padding: 10px; 
