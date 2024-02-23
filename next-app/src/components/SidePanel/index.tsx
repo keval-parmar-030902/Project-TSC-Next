@@ -15,23 +15,23 @@ const SidePanel = (props: Props) => {
             <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Computer Hardware Engineer</Link></p>
             <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Network Engineer</Link></p>
             <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Technical Support</Link></p>
-            <p className={styles.starAndText}><FaStar /> Network Administration</p>
-            <p className={styles.starAndText}><FaStar /> Management</p>
-            <p className={styles.starAndText}><FaStar /> Data Analysis</p>
-            <p className={styles.starAndText}><FaStar /> Computer Technician</p>
-            <p className={styles.starAndText}><FaClock /> PastSearch 1</p>
-            <p className={styles.starAndText}><FaClock /> PastSearch 2</p>
-            <p className={styles.starAndText}><FaClock /> Computer and Information</p>
-            <p className={styles.starAndText}><FaClock /> Database Administration</p>
-            <p className={styles.starAndText}><FaClock /> Computer Security</p>
-            <p className={styles.starAndText}><FaClock /> Computer System Analyst</p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Network Administration</Link></p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Management</Link></p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Data Analysis</Link></p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Computer Technician</Link></p>
+            <p className={styles.starAndText}><FaClock /><Link className={styles.link} href="/shopPage"> PastSearch 1</Link></p>
+            <p className={styles.starAndText}><FaClock /><Link className={styles.link} href="/shopPage"> PastSearch 2</Link></p>
+            <p className={styles.starAndText}><FaClock /><Link className={styles.link} href="/shopPage"> Computer and Information</Link></p>
+            <p className={styles.starAndText}><FaClock /><Link className={styles.link} href="/shopPage"> Database Administration</Link></p>
+            <p className={styles.starAndText}><FaClock /><Link className={styles.link} href="/shopPage"> Computer Security</Link></p>
+            <p className={styles.starAndText}><FaClock /><Link className={styles.link} href="/shopPage"> Computer System Analyst</Link></p>
             <b>My Boards</b>
-            <p className={styles.starAndText}><FaFolder /> Board 1</p>
-            <p className={styles.starAndText}><FaFolder /> Board 2</p>
-            <p className={styles.starAndText}><FaFolder /> board 3</p>
-            <p className={styles.starAndText}><FaUnlock /> Board agent 1</p>
-            <p className={styles.starAndText}><FaUnlock /> Board agent 2</p>
-            <p className={styles.starAndText}><FaUnlock /> board agent 3</p>
+            <p className={styles.starAndText}><FaFolder /><Link className={styles.link} href="/shopPage"> Board 1</Link></p>
+            <p className={styles.starAndText}><FaFolder /><Link className={styles.link} href="/shopPage"> Board 2</Link></p>
+            <p className={styles.starAndText}><FaFolder /><Link className={styles.link} href="/shopPage"> board 3</Link></p>
+            <p className={styles.starAndText}><FaUnlock /><Link className={styles.link} href="/shopPage"> Board agent 1</Link></p>
+            <p className={styles.starAndText}><FaUnlock /><Link className={styles.link} href="/shopPage"> Board agent 2</Link></p>
+            <p className={styles.starAndText}><FaUnlock /><Link className={styles.link} href="/shopPage"> board agent 3</Link></p>
         </div>
     );
 }
