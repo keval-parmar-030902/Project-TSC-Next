@@ -1,11 +1,14 @@
+"use server";
 import React from "react";
 import Style from "./form.module.css";
 import Button from "../Button";
 import Link from "next/link";
+import PhoneNumberField from "../(auth)phone";
 
 interface Props { }
 
 const Form = (props: Props) => {
+  
   return (
     <>
       <form action="#" className={Style.form}>
@@ -16,7 +19,7 @@ const Form = (props: Props) => {
               id="firstname"
               required
               placeholder="First Name"
-              pattern="[A-Za-z]+"
+              pattern="^[a-zA-Z]{2,}$"
             />
           </div>
           <div className={Style.inputs}>
@@ -25,7 +28,7 @@ const Form = (props: Props) => {
               id="lastname"
               required
               placeholder="Last Name"
-              pattern="[A-Za-z]+"
+              pattern="^[a-zA-Z]{3,}$"
             />
           </div>
           <div className={Style.inputs}>
@@ -52,7 +55,7 @@ const Form = (props: Props) => {
             id="address"
             className={Style.textarea}
             placeholder="Address"
-
+            maxLength={100}
           />
         </div>
         <div className={Style.formsection}>
@@ -62,7 +65,7 @@ const Form = (props: Props) => {
               id="email"
               required
               placeholder="Email"
-              pattern="^\w+([\.\-_]?\w+)*@\w+\.\w+(\.?\w+)*$"
+              pattern="/^[^ ]+@[^ ]+\.[a-z]{2,3}$"
             />
           </div>
           <div className={Style.inputs}>
@@ -71,8 +74,9 @@ const Form = (props: Props) => {
               id="phone"
               required
               placeholder="Phone.NO"
-              pattern="\d{10}"
+              pattern="^[1-9]\d{9,}$"
             />
+            {/* <PhoneNumberField/> */}
           </div>
           <div className={Style.inputs}>
             <input
@@ -86,7 +90,7 @@ const Form = (props: Props) => {
         </div>
         <div className={Style.text}>
           Use this email to log in to your{" "}
-          <Link className={Style.link} href="/" alt="">
+          <Link className={Style.link} href="/">
             resumedone.io
           </Link>{" "}
           account and receive notifications.
@@ -97,7 +101,7 @@ const Form = (props: Props) => {
         <div>
           <input type="checkbox" />
           <span> Show my profile to serious employers on </span>
-          <Link className={Style.link} href="/" alt="">
+          <Link className={Style.link} href="/">
             hirethebest.io
           </Link>{" "}
           for free
