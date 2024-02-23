@@ -2,6 +2,7 @@ import React from 'react';
 import { FaCheckSquare, FaClock, FaFolder, FaSearch, FaStar, FaUnlock } from 'react-icons/fa';
 import styles from './sidePanel.module.css';
 import { FaLockOpen } from 'react-icons/fa6';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -10,10 +11,10 @@ const SidePanel = (props: Props) => {
         <div className={styles.resumeContainer}>
             <b>MY Templates</b>
             <p className={styles.searchAndText}><FaSearch />Search</p>
-            <p className={styles.starAndText}><FaStar /> Software Engineer</p>
-            <p className={styles.starAndText}><FaStar /> Computer Hardware Engineer</p>
-            <p className={styles.starAndText}><FaStar /> Network Engineer</p>
-            <p className={styles.starAndText}><FaStar /> Technical Support</p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Software Engineer</Link></p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Computer Hardware Engineer</Link></p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Network Engineer</Link></p>
+            <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Technical Support</Link></p>
             <p className={styles.starAndText}><FaStar /> Network Administration</p>
             <p className={styles.starAndText}><FaStar /> Management</p>
             <p className={styles.starAndText}><FaStar /> Data Analysis</p>

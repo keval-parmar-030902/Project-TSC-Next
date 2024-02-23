@@ -3,6 +3,8 @@
     flex-direction: column;
     margin: 20px;
     width: 20rem;
+    border-right: 1px solid gray;
+    height: 100%;
   } 
 .starAndText {
     display: grid;
@@ -18,5 +20,8 @@
     gap: 5px;
     font-weight: bold;
   }
-  
+  .link{
+    text-decoration: none;
+    color: black;
+}
   

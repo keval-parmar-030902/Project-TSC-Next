@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
           If you delete your account you'll be permanently removing it from our
           systems-you can't undo it.{" "}
         </p>
-        <p className={Styles.p}>Yes,Delete my account </p>
+        <p className={Styles.p}>Yes, Delete my account </p>
       </div>
       <div className={Styles.div1}>
         <Link className={Styles.link} href="/shopPage" alt=" ">
@@ -26,10 +26,10 @@ const Footer = (props: Props) => {
       </div>
       <hr></hr>
       <div className={Styles.div2}>
-        <div className={Styles.div3}>Terms & Conditions</div>
-        <div className={Styles.div3}>Privacy Policy</div>
-        <div className={Styles.div3}>FAQ</div>
-        <div className={Styles.div3}>ContactUs</div>
+        <Link href="/" className={Styles.div3}>Terms & Conditions</Link>
+        <Link href="/" className={Styles.div3}>Privacy Policy</Link>
+        <Link href="/" className={Styles.div3}>FAQ</Link>
+        <Link href="/" className={Styles.div3}>ContactUs</Link>
       </div>
     </div>
   );
