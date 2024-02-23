@@ -1,4 +1,4 @@
-
+"use client";
 import React, { forwardRef, useEffect, useState } from "react";
 import Style from "./form.module.css";
 import Button from "../Button";
@@ -6,7 +6,7 @@ import Link from "next/link";
 import Eye from "@/common/eye";
 import EyeOff from "@/common/eyeoff";
 // import { type } from "os";
-"use server";
+
 
 
 type Props = {
