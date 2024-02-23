@@ -1,4 +1,4 @@
-"use client";
+
 import React, { forwardRef, useEffect, useState } from "react";
 import Style from "./form.module.css";
 import Button from "../Button";
@@ -6,6 +6,8 @@ import Link from "next/link";
 import Eye from "@/common/eye";
 import EyeOff from "@/common/eyeoff";
 // import { type } from "os";
+"use server";
+
 
 type Props = {
   name: string
@@ -131,10 +133,18 @@ const Form = forwardRef<HTMLInputElement, Props>(
                 </button>
               )}
             </div>
+
+            <div className={Style.text}>
+              Use this email to log in to your{" "}
+              <Link className={Style.link} href="/" alt="">
+                resumedone.io
+              </Link>{" "}
+              account and receive notifications.
+            </div>
           </div>
           <div className={Style.text}>
             Use this email to log in to your{" "}
-            <Link className={Style.link} href="/" alt="">
+            <Link className={Style.link} href="/">
               resumedone.io
             </Link>{" "}
             account and receive notifications.
@@ -145,7 +155,7 @@ const Form = forwardRef<HTMLInputElement, Props>(
           <div>
             <input type="checkbox" />
             <span> Show my profile to serious employers on </span>
-            <Link className={Style.link} href="/" alt="">
+            <Link className={Style.link} href="/">
               hirethebest.io
             </Link>{" "}
             for free
@@ -153,7 +163,6 @@ const Form = forwardRef<HTMLInputElement, Props>(
         </form>
       </>
     );
-
   });
 
 export default Form;
