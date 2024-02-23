@@ -23,9 +23,13 @@
     .banner {
         flex-wrap: wrap; 
         padding: 10px;
+        
     }
     .image {  
         margin: auto;
         
+    }
+    .premium{
+      text-align: center;
     }
 }

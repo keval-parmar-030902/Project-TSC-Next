@@ -24,7 +24,7 @@
     margin: 20px;
    } 
    .div2{
-    margin: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     gap: 1rem;
