@@ -11,7 +11,10 @@
 .button:hover{
     cursor: pointer;
 }
-
+.button .link{
+    text-decoration:none;
+    color: aliceblue;
+}
 .button:active{
     box-shadow: 1px 1px 10px black;
 }

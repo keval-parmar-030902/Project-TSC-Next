@@ -8,6 +8,7 @@ import Banner from "@/components/Banner"
 import SidePanel from "@/components/SidePanel";
 interface Props { }
 import Footer from "@/components/footer"
+
 interface Props { }
 
 const Contectus = (props: Props) => {

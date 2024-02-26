@@ -1,14 +1,23 @@
-import React from 'react';
-import { FaCheckSquare, FaClock, FaFolder, FaSearch, FaStar, FaUnlock } from 'react-icons/fa';
+"use client";
+import { FaClock, FaFolder, FaSearch, FaStar, FaUnlock } from 'react-icons/fa';
 import styles from './sidePanel.module.css';
-import { FaLockOpen } from 'react-icons/fa6';
 import Link from 'next/link';
+import React, { useState } from 'react';
+
 
 type Props = {};
 
 const SidePanel = (props: Props) => {
+    const [isPanelOpen, setIsPanelOpen] = useState(false);
+
+    const togglePanel = () => {
+        setIsPanelOpen(!isPanelOpen);
+    };
+
     return (
-        <div className={styles.resumeContainer}>
+        <div>
+            
+            <div className={`${styles.resumeContainer} ${isPanelOpen ? styles.panelOpen : ''}`}>
             <b>MY Templates</b>
             <p className={styles.searchAndText}><FaSearch />Search</p>
             <p className={styles.starAndText}><FaStar /><Link className={styles.link} href="/shopPage"> Software Engineer</Link></p>
@@ -33,6 +42,8 @@ const SidePanel = (props: Props) => {
             <p className={styles.starAndText}><FaUnlock /><Link className={styles.link} href="/shopPage"> Board agent 2</Link></p>
             <p className={styles.starAndText}><FaUnlock /><Link className={styles.link} href="/shopPage"> board agent 3</Link></p>
         </div>
+        </div>
+        
     );
 }
 
